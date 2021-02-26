@@ -10,4 +10,5 @@ class NA:
             print('RNA')
         elif ('T' in self.seq or 't' in self.seq) :
             print('DNA')    
-    
+    def Ncodons(self):
+        print('Number of codons will be {}'.format(len(self.seq)/3))
