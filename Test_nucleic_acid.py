@@ -5,3 +5,4 @@ seq.category()
 seq.Ncodons()
 
 seq.Individual_count()
+seq.Melting_point()

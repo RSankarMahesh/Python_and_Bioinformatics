@@ -31,5 +31,8 @@ class NA:
             if UniqueN[i] == 'U' and UniqueN[i] in self.seq:
                 print(UniqueN[i], self.seq.count(UniqueN[i]))
                 self.U = self.seq.count(UniqueN[i])    
+    def Melting_point(self):
+        print(str(2*(self.A+self.T)+4*(self.G+self.C)) + " degree celsius")
+        
             
     
