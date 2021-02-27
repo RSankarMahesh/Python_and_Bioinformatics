@@ -1,3 +1,7 @@
 import Nucleic_acid 
-seq1 = Nucleic_acid.NA('ATGCAUTCGTACGTGTACGATCGTGT')
-seq1.Individual_count()
+seq = Nucleic_acid.NA('ATGCAUTCGTACGTGTACGATCG')
+seq.seq_len()
+seq.category()
+seq.Ncodons()
+
+seq.Individual_count()
