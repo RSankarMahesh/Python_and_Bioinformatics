@@ -14,9 +14,22 @@ class NA:
         print('Number of codons will be {}'.format(len(self.seq)/3))
     def Individual_count(self):
         UniqueN= str(set(self.seq))
+        UniqueN= str(set(self.seq))
         for i in range(len(self.seq)):
-            if UniqueN[i] in self.seq:
+            if UniqueN[i] == 'A' and UniqueN[i] in self.seq:
                 print(UniqueN[i], self.seq.count(UniqueN[i]))
-        
+                self.A = self.seq.count(UniqueN[i])        
+            if UniqueN[i] == 'T' and UniqueN[i] in self.seq:
+                print(UniqueN[i], self.seq.count(UniqueN[i]))
+                self.T = self.seq.count(UniqueN[i])
+            if UniqueN[i] == 'G' and UniqueN[i] in self.seq:
+                print(UniqueN[i], self.seq.count(UniqueN[i]))
+                self.G = self.seq.count(UniqueN[i])
+            if UniqueN[i] == 'C' and UniqueN[i] in self.seq:
+                print(UniqueN[i], self.seq.count(UniqueN[i]))
+                self.C = self.seq.count(UniqueN[i])
+            if UniqueN[i] == 'U' and UniqueN[i] in self.seq:
+                print(UniqueN[i], self.seq.count(UniqueN[i]))
+                self.U = self.seq.count(UniqueN[i])    
             
     
